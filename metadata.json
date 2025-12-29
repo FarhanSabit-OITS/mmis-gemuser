@@ -1,0 +1,7 @@
+{
+  "name": "NEXT, React, BFF, MIS, Multi-Vendor E-Commerce System (MMIS)",
+  "description": "Next.JS, Shadcn based Frontend & ExpressJS Backend using Prisma Schema & PGSQL. The FE & BE are Separate, not mono repo. Core Session, Auth, Verification is handled by jwt, auth etc. in  server side auth. next auth leverages BFF Architecture for security & optimization. Write the frontend codebase only as we are backend agnostic. Implement the User Module: Super Admin->Market Admin->Gate/Stock Counter Stuffs->Vendor->Supplier->User. Login is authenticated by server side JWT Token (with MFA, Remember Me Forgot Password, Signup/Registration Link, Google Login etc.)\nSignup/Registration is Completed After Email Verification via Sending a Link to the Registered Email of the User. Then Redirected to the RBAC Dashboard when Successfully Authenticated & Verified. Then There is KYC Process to Get Special Access to Vendor & Admin Dashboards After Applying from the Common Dashboard.\nWrite the Whole Frontend Codebase Use Latest Packages & Tools with Compatible Versions. Strictly Follow TS & ESLINT Rules, Industry Coding Conventions & Standards.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
